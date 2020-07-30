@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.rulesScreenController">
+   <children>
+      <Label layoutX="132.0" layoutY="35.0" prefHeight="43.0" prefWidth="337.0" text="GAME RULES" textFill="#e42e74" AnchorPane.bottomAnchor="322.0" AnchorPane.leftAnchor="132.0" AnchorPane.rightAnchor="131.0" AnchorPane.topAnchor="35.0">
+         <padding>
+            <Insets bottom="5.0" left="80.0" right="80.0" top="5.0" />
+         </padding>
+         <font>
+            <Font name="Bodoni MT Black" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="469.0" layoutY="341.0" mnemonicParsing="false" text="Click to Play" />
+      <Text layoutX="48.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The Goal: The aim for both players is to make a straight line of four of their own pieces; the line can be vertical, horizontal or diagonal." wrappingWidth="506.0" />
+      <Text layoutX="50.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. Decide who plays first. Players will alternate turns after playing a coin. " wrappingWidth="499.6708984375" />
+      <Text layoutX="50.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2. On your turn, drop any of your coins down any slot from the top of the grid." wrappingWidth="499.6708984375" />
+      <Text layoutX="50.0" layoutY="237.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3. Take turns dropping coins until one player gets four coins of their color in a row (horizontally, vertically, or diagonally)." wrappingWidth="499.6708984375" />
+      <Text layoutX="50.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4. The first player to get four in a row wins!" wrappingWidth="499.6708984375" />
+   </children>
+</AnchorPane>
